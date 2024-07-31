@@ -1,5 +1,4 @@
 package TokenBucketAlgorithmProblem;
-\
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -12,7 +11,7 @@ public class TokenBucketAlgorithm_3 {
     private final int MAX_TOKENS;
     private long lastRequestTime = System.currentTimeMillis();
     private long possibleTokens = 0;
-    private int tokenPerSecond = 2;
+//    private int tokenPerSecond = 2;
 
     private final Lock lock = new ReentrantLock(true);
 
